@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+    font-family: "Poppins";
+    padding: 10px;
+}
+
+#blackHeart {
+    width: 20px;
+}
+
+header {
+    margin-bottom: 5px;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#upperdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    height: 30px;
+}
+
+#upperdiv span {
+    font-size: 10px;
+}
+
+
+#nav-bar ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+#nav-bar li {
+    padding: 0 10px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+}
+
+#lowerdiv {
+    padding-top: 5px;
+    max-height: 30px;
+}
+
+.smallbutton {
+    font-size: 0.5rem;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+#joinbutton {
+    border: 1px solid black;
+}
+
+#loginbutton {
+    border: none;
+}
+
+#searchBar {
+    border: none;
+    background-color: lightgray;
+    font-size: 10px;
+    padding: 5px;
+    color: rgba(0, 0, 0, .05);
+    width: 800px;
+    position: relative;
+}
+
+#search-bar button {
+    background-color: #fb3e44;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    border: none;
+}
+
+#logo {
+    width: 30px;
+    height: 20px;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+
+#general-information {
+    background-color: rgba(232, 217, 217, .3);
+}
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#general-information p {
+    width: 400px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 10px 30px;
+    margin: 20px 10px;
+}
+
+#seePlans {
+    color: white;
+    background-color: #FB3B49;
+    border-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+}
+
+#joinForFree {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+
+
+
+#description p {
+    width: 400px;
+    font-size: 10px;
+    text-align: center;
+}
+
+h2 {
+    background-color: rgba(255, 204, 53, .4);
+    transform: skew(9deg, 0deg);
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 0 20px;
+}
+
+.symbol {
+    width: 20px;
+}
+
+
+
+#offers>div {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 0 50px;
+
+}
+
+.offer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    width: 100px;
+}
+
+.offer-container h3,
+p {
+    text-align: left;
+    font-size: 0.5rem;
+    margin-top: 10px;
+}
+
+.offer-container p {
+    font-size: 0.5rem;
+}
+
+.offer-container h3 {
+    color: #ED1C24;
+}
+
+#orgButton {
+    box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+    color: white;
+    background-color: black;
+    padding: 10px 40px;
+    font-size: 0.6rem;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 800px) {
+    #searchBar {
+        width: 400px;
+    }
+
+    #lowerdiv {
+        height: 100%;
+    }
+}
