@@ -1,135 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NPM Clone</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-  </head>
-  <body>
-    <header>
-      <div id="upperdiv">
-        <div>
-          <img
-            id="blackHeart"
-            src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/black-heart.png"
-            alt="black heart"
-          />
-          <span>Nifty Penguin Magic</span>
-        </div>
-        <nav id="nav-bar">
-          <ul>
-            <li><a href="#"> npm Enterprise </a></li>
-            <li><a href="#"> Products </a></li>
-            <li><a href="#"> Solutions </a></li>
-            <li><a href="#"> Resources </a></li>
-            <li><a href="#"> Docs </a></li>
-            <li><a href="#"> Support </a></li>
-          </ul>
-        </nav>
-      </div>
-      <div id="lowerdiv">
-        <img
-          id="logo"
-          src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/npm-logo.png"
-          alt="npm logo"
-        />
-        <form id="search-bar">
-          <input id="searchBar" type="search" placeholder="Search packages" value="" />
-          <button>Search</label>
-        </form>
-        <button class="smallbutton" id="joinbutton">Join</button>
-        <button class="smallbutton" id="loginbutton">Log In</button>
-      </div>
-    </header>
 
-    <!-- Section 1 -->
-    <section id="general-information">
-      <h1>Build amazing things</h1>
-      <p>
-        Essential JavaScript development tools that help you go to market faster
-        and build powerful applications using moders open source code.
-      </p>
-      <div id="buttons">
-        <button id="seePlans" class="button">See plans</button>
-        <button id="joinForFree" class="button">Join for free</button>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NPM Clone</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
 
-    <!-- Section 2 -->
-    <section id="description">
+<body>
+  <header>
+    <div id="upperdiv">
       <div>
-        <img
-          src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/triangle-hexagon.svg"
-          alt="Triangle Hexagon"
-          width="100px"
-        />
+        <img id="blackHeart" src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/black-heart.png"
+          alt="black heart" />
+        <span>Nifty Penguin Magic</span>
       </div>
-      <h2>Bring the best of open source to your company</h2>
-      <p>
-        npm is the tool used by over 11,000,000 JavaScript developers around the
-        world. Your developers already use it. Your company depends on it.
-        Create an Org and get more out of the tools your team already knows and
-        loves.
-      </p>
-    </section>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#"> npm Enterprise </a></li>
+          <li><a href="#"> Products </a></li>
+          <li><a href="#"> Solutions </a></li>
+          <li><a href="#"> Resources </a></li>
+          <li><a href="#"> Docs </a></li>
+          <li><a href="#"> Support </a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="lowerdiv">
+      <img id="logo" src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/npm-logo.png" alt="npm logo" />
+      <form id="search-bar">
+        <input type="search" placeholder="Search packages" value="" />
+        <button>Search</label>
+      </form>
+      <button class="smallbutton" id="joinbutton">Join</button>
+      <button class="smallbutton" id="loginbutton">Log In</button>
+    </div>
+  </header>
 
-    <!-- Section 3 -->
-    <section id="offers">
-      <div>
-        <div class="offer-container">
-          <img
-            class="symbol"
-            src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/zero-configuration.svg"
-            alt="Zero configuration symbol"
-          />
-          <h3>Zero configuration</h3>
-          <p>
-            Create an org, add your team, and start collaborating. Nothing to
-            configure, set up, or manage.
-          </p>
-        </div>
+  <!-- Section 1 -->
+  <section id="general-information">
+    <h1>Build amazing things</h1>
+    <p>
+      Essential JavaScript development tools that help you go to market faster
+      and build powerful applications using moders open source code.
+    </p>
+    <div id="buttons">
+      <button id="seePlans" class="button">See plans</button>
+      <button id="joinForFree" class="button">Join for free</button>
+    </div>
+  </section>
 
-        <div class="offer-container">
-          <img
-            class="symbol"
-            src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/team-management.svg"
-            alt="Team Management Symbol"
-          />
-          <h3>Team management</h3>
-          <p>
-            Control who has access to what modules within your team namespace
-            using straightforward team management capabilities.
-          </p>
-        </div>
+  <!-- Section 2 -->
+  <section id="description">
+    <div>
+      <img src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/triangle-hexagon.svg" alt="Triangle Hexagon"
+        width="100px" />
+    </div>
+    <h2>Bring the best of open source to your company</h2>
+    <p>
+      npm is the tool used by over 11,000,000 JavaScript developers around the
+      world. Your developers already use it. Your company depends on it.
+      Create an Org and get more out of the tools your team already knows and
+      loves.
+    </p>
+  </section>
 
-        <div class="offer-container">
-          <img
-            class="symbol"
-            src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/familiar-features.svg"
-            alt="Familiar Features Symbol"
-          />
-          <h3>Familiar features</h3>
-          <p>
-            npm Orgs has 100% parity with all the public npm registry geatures
-            your developers already use.
-          </p>
-        </div>
-
-        <div class="offer-container">
-          <img
-            class="symbol"
-            src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/npm-audit.svg"
-            alt="npm audit symbol"
-          />
-          <h3>npm audit</h3>
-          <p>
-            Enjoy the security auditing features built into the npm client, a
-            zero-friction way to make open source software safer.
-          </p>
-        </div>
+  <!-- Section 3 -->
+  <section id="offers">
+    <div>
+      <div class="offer-container">
+        <img class="symbol" src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/zero-configuration.svg"
+          alt="Zero configuration symbol" />
+        <h3>Zero configuration</h3>
+        <p>
+          Create an org, add your team, and start collaborating. Nothing to
+          configure, set up, or manage.
+        </p>
       </div>
-      <button id="orgButton">Create an Org</button>
-    </section>
-  </body>
+
+      <div class="offer-container">
+        <img class="symbol" src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/team-management.svg"
+          alt="Team Management Symbol" />
+        <h3>Team management</h3>
+        <p>
+          Control who has access to what modules within your team namespace
+          using straightforward team management capabilities.
+        </p>
+      </div>
+
+      <div class="offer-container">
+        <img class="symbol" src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/familiar-features.svg"
+          alt="Familiar Features Symbol" />
+        <h3>Familiar features</h3>
+        <p>
+          npm Orgs has 100% parity with all the public npm registry geatures
+          your developers already use.
+        </p>
+      </div>
+
+      <div class="offer-container">
+        <img class="symbol" src="../../Documents/IRONHACK/Prework/lab-html-exercise/images/npm-audit.svg"
+          alt="npm audit symbol" />
+        <h3>npm audit</h3>
+        <p>
+          Enjoy the security auditing features built into the npm client, a
+          zero-friction way to make open source software safer.
+        </p>
+      </div>
+    </div>
+    <button id="orgButton">Create an Org</button>
+  </section>
+</body>
+
 </html>

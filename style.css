@@ -2,7 +2,7 @@
 
 body {
     font-family: "Poppins";
-    padding: 10px;
+    padding: 20px;
 }
 
 #blackHeart {
@@ -51,7 +51,8 @@ header>div {
 
 #lowerdiv {
     padding-top: 5px;
-    max-height: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .smallbutton {
@@ -62,23 +63,30 @@ header>div {
 
 #joinbutton {
     border: 1px solid black;
+    flex-grow: 0;
 }
 
 #loginbutton {
     border: none;
+    flex-grow: 0;
 }
 
-#searchBar {
+#search-bar {
+    flex-grow: 3;
+    display: flex;
+    margin-right: 10px;
+}
+
+#search-bar > input {
     border: none;
     background-color: lightgray;
     font-size: 10px;
     padding: 5px;
     color: rgba(0, 0, 0, .05);
-    width: 800px;
-    position: relative;
+    flex-grow: 3;
 }
 
-#search-bar button {
+#search-bar > button {
     background-color: #fb3e44;
     color: white;
     font-size: 10px;
@@ -168,7 +176,7 @@ h2 {
     align-items: baseline;
     justify-content: space-around;
     margin: 0 50px;
-
+    flex-wrap: wrap;
 }
 
 .offer-container {
@@ -204,12 +212,3 @@ p {
     font-weight: bolder;
 }
 
-@media only screen and (max-width: 800px) {
-    #searchBar {
-        width: 400px;
-    }
-
-    #lowerdiv {
-        height: 100%;
-    }
-}
